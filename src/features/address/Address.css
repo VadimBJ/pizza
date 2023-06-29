@@ -1,0 +1,103 @@
+.addressContainer{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.addresHeaderText{
+  margin: 5px;
+  font-family: 'Merienda', cursive;
+  font-size: calc(var(--index) * 1);
+  text-align: center;
+  line-height: 2;
+  
+}
+
+.formContainer{
+  width: 72%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.redText{
+  margin: 0;
+  color: #f24a00;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+
+}
+
+.addressTextField{
+  font-size: calc(var(--index) * 1);
+  font-family: "Kalam", cursive;
+  margin-bottom: calc(var(--index) * -0.4);
+}
+.addressTextField2{
+  font-size: calc(var(--index) * 1);
+  font-family: "Kalam", cursive;
+  transform: rotate(15deg);
+}
+.divBlock{
+  margin: calc(var(--index) * 1) calc(var(--index) * 0.7);
+}
+
+
+#firstName{
+  font-size: calc(var(--index) * 1);
+  width: calc(var(--index) * 12);
+}
+.spanBlank1{
+  margin: 0 calc(var(--index) * 0.5);
+}
+
+#lasttName{
+  font-size: calc(var(--index) * 1);
+  width: calc(var(--index) * 12);
+}
+
+#zipCode{
+  font-size: calc(var(--index) * 1);
+  width: calc(var(--index) * 6);
+}
+
+#street{
+  font-size: calc(var(--index) * 1);
+  width: calc(var(--index) * 8.5);
+}
+
+.phoneDiv{
+  margin-right: calc(var(--index) * 1);
+  text-align: center;
+}
+#phone{
+  font-size: calc(var(--index) * 1);
+  width: calc(var(--index) * 20);
+}
+
+.commentDiv{
+  margin: 50px 0;
+}
+#comment{
+  font-size: calc(var(--index) * 1);
+  width: calc(var(--index) * 26);
+}
+
+.SendOrderBtn{
+  width: 85%;
+  margin: 30px auto;
+  cursor: pointer;
+  background-color: transparent;
+  color: #f24a00;
+  border: #f24a00 solid 1px;
+  border-radius: calc(var(--index));
+  padding: calc(var(--index) * 0.2) 0;
+  font-size: calc(var(--index) * 1);
+  box-shadow: 1px 1px 4px rgb(0, 0, 0, 0.3);
+}
+
+.SendOrderBtn:hover{
+  background-color: #fefef7;
+  box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.4);
+}
+
+.SendOrderBtn:active{
+  box-shadow: 1px 1px 4px rgb(0, 0, 0, 0.3);
+}

@@ -1,0 +1,47 @@
+.contactsContainer {
+  margin: 0 auto;
+  margin-top: calc(var(--index) * 4);
+  max-width: calc(var(--index) * 45);
+  width: 80%;
+  font-size: calc(var(--index) * 1.2);
+  font-family: "Handlee", cursive;
+}
+
+.socials{
+  position: absolute;
+  width: 43%;
+  border-radius: 20px;
+}
+
+.contactsBlock {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.address {
+  width: 80%;
+  margin-top: -20px;
+  line-height: calc(var(--index) * 3);
+}
+
+.contacts1 {
+  width: 40%;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.openingHours {
+  margin: 0 0 -25px 0;
+}
+
+.maps {
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.5);
+}
+
+.maps:hover{
+  box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.5);
+}

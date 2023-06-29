@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Shadows+Into+Light&display=swap");
+
+@media only screen and (max-width: 430px) {
+  .modalPizzaContainer {
+    max-width: calc(var(--index) * 40);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.categoryContainer {
+  max-width: calc(var(--index) * 45);
+  width: 80%;
+  margin: calc(var(--index) * 3.5) auto 0;
+}
+
+.pizzasContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  max-width: calc(var(--index) * 45);
+  width: 80%;
+}
+
+.pizzaContainer {
+  position: relative;
+  margin-bottom: calc(var(--index));
+  margin-right: calc(var(--index) * 0.1);
+  padding: calc(var(--index) * 0.5);
+  max-width: calc(var(--index) * 13);
+  border: transparent;
+  border-top: 1px solid rgb(230, 230, 230);
+  border-left: 1px solid rgb(230, 230, 230);
+  border-radius: 10px;
+  align-items: center;
+}
+
+.pizzaContainer:hover {
+  border: 1px solid rgb(230, 230, 230);
+  background-color: rgb(240, 245, 245);
+  box-shadow: 2px 2px 4px rgb(21, 21, 21, 0.5);
+}
+
+.imgContainer {
+  position: relative;
+}
+
+.pizzaImg {
+  max-width: calc(var(--index) * 13);
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.pizzaName {
+  font-size: calc(var(--index) * 1.1);
+  font-weight: 500;
+  font-family: "Kaushan Script", cursive;
+  display: flex;
+  width: 100%;
+  height: calc(var(--index) * 3.3);
+  text-align: center;
+  justify-content: center;
+}
+
+.veganImg {
+  position: absolute;
+  width: calc(var(--index) * 2);
+  top: calc(var(--index) * -0.5);
+  left: calc(var(--index) * -0.2);
+}
+
+.customizeBtn {
+  position: relative;
+  top: calc(var(--index) * -0.8);
+  left: calc(var(--index) * 8);
+  width: calc(var(--index) * 6);
+  height: calc(var(--index) * 2);
+  cursor: pointer;
+  transform: rotate(-10deg);
+  background-color: transparent;
+  background-color: rgb(255, 255, 255, 0.3);
+  color: #f24a00;
+  border: #f24a00 solid 2px;
+  border-radius: calc(var(--index));
+  padding: calc(var(--index) * 0.2);
+  font-size: calc(var(--index) * 1);
+}
+
+.customizeBtn:hover {
+  background-color: rgb(255, 255, 255, 0.8);
+  border: #b73801 solid 2px;
+  transform: rotate(-5deg);
+}
+
+.pizzaIngredients {
+  margin-top: calc(var(--index) * -1.7);
+  margin-bottom: calc(var(--index) * 0.9);
+  font-size: calc(var(--index) * 1);
+  font-family: "Dancing Script", cursive;
+}
+
+.pizzaPrise {
+  font-size: calc(var(--index) * 1.8);
+  font-weight: 500;
+  font-family: "Kaushan Script", cursive;
+  color: red;
+  font-family: "Annie Use Your Telescope", cursive;
+  position: absolute;
+  transform: rotate(-3deg);
+  bottom: calc(var(--index) * -2.5);
+  right: calc(var(--index) * -0.4);
+  text-align: end;
+  text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+.categoryList {
+  display: flex;
+}
+
+.categoryItem {
+  cursor: pointer;
+  margin: calc(var(--index) * 0.2);
+  padding: calc(var(--index) * 0.2) calc(var(--index) * 0.4)
+    calc(var(--index) * 0.3) calc(var(--index) * 0.4);
+  background-color: rgb(207, 228, 250);
+  border-radius: 15px;
+  list-style-type: none;
+  font-size: calc(var(--index) * 0.65);
+}
+
+.categoryItem.active {
+  background-color: rgb(104, 149, 196);
+  color: aliceblue;
+  box-shadow: 2px 2px 4px rgb(21, 21, 21, 0.5);
+}
+
+.categoryItem.active:hover {
+  background-color: rgb(104, 149, 196);
+  color: aliceblue;
+}
+
+.categoryItem:hover {
+  background-color: rgb(184, 209, 237);
+  box-shadow: 2px 2px 4px rgb(21, 21, 21, 0.5);
+}
+
+.modalPizzaContainer {
+  margin: calc(var(--index) * 0.8);
+  max-width: calc(var(--index) * 40);
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.modalPizzaInfo {
+  max-width: calc(var(--index) * 30);
+  width: 80%;
+}
+
+.modalPizzaCustomize {
+  display: flex;
+  flex-direction: column;
+  max-width: calc(var(--index) * 10);
+  /* width: 20%; */
+  align-items: center;
+  font-size: calc(var(--index) * 0.8);
+}
+
+.modalImgContainer {
+  max-width: calc(var(--index) * 30);
+  width: 100%;
+  position: relative;
+}
+
+.modalPizzaImgBig {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.modalVeganImg {
+  position: absolute;
+  width: calc(var(--index) * 3);
+  top: calc(var(--index) * -0.5);
+  left: calc(var(--index) * -0.2);
+}
+
+.pizzaCustomizeTxt {
+  margin: 5px;
+  font-family: "Merienda", cursive;
+  font-size: calc(var(--index) * 1);
+  text-align: center;
+}
+
+.modalPizzaCheckbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 15px;
+  font-size: calc(var(--index) * 0.8);
+  font-family: "Kalam", cursive;
+}
+
+.modalChooseText {
+  margin: 0;
+  margin-top: calc(var(--index) * 0.4);
+  font-size: calc(var(--index) * 0.9);
+  font-family: "Kalam", cursive;
+}
+.modalChooseText.quantity {
+  margin-top: calc(var(--index) * 0.9);
+}
+.quantityContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.quantityMinusBtn {
+  cursor: pointer;
+  background-color: transparent;
+  color: #cccbcb;
+  border: #cccbcb solid 2px;
+  background-color: rgb(240, 240, 240);
+  border-radius: calc(var(--index)) 0 0 calc(var(--index));
+  padding: calc(var(--index) * 0.2);
+  width: calc(var(--index) * 1.2);
+  font-size: calc(var(--index) * 1.2);
+}
+.quantityMinusBtn:hover {
+  color: #4997d3;
+  border: #7dafd6 solid 2px;
+  background-color: #ebf4fb;
+}
+
+.quantityPlusBtn {
+  cursor: pointer;
+  background-color: transparent;
+  /* color: #f24a00; */
+  color: #cccbcb;
+  border: #cccbcb solid 2px;
+  background-color: rgb(240, 240, 240);
+  border-radius: 0 calc(var(--index)) calc(var(--index)) 0;
+  padding: calc(var(--index) * 0.2);
+  width: calc(var(--index) * 1.2);
+  font-size: calc(var(--index) * 1.2);
+}
+.quantityPlusBtn:hover {
+  color: #4997d3;
+  border: #7dafd6 solid 2px;
+  background-color: #ebf4fb;
+}
+
+.quantityText {
+  width: calc(var(--index) * 2.5);
+  padding-right: 5px;
+  color: black;
+  font-weight: 500;
+  font-family: "Kaushan Script", cursive;
+  font-size: calc(var(--index) * 1.5);
+  background-color: rgb(236, 236, 236);
+  border-radius: 10px;
+}
+
+.modalTotalPriceText {
+  font-weight: 500;
+  font-family: "Kaushan Script", cursive;
+  font-size: calc(var(--index) * 1.5);
+  color: #f24a00;
+  transform: rotate(-10deg);
+  margin: calc(var(--index) * 0.2);
+}
+
+.modalTotalPrice {
+  font-weight: 500;
+  font-family: "Kaushan Script", cursive;
+  font-size: calc(var(--index) * 1.7);
+  color: red;
+  margin: calc(var(--index) * -1) calc(var(--index) * 0.1) 0 auto;
+}
+
+.modalAddToCartBtn {
+  position: relative;
+  bottom: calc(var(--index) * -0.7);
+  right: calc(var(--index) * -1.6);
+  width: calc(var(--index) * 8);
+  height: calc(var(--index) * 2);
+  cursor: pointer;
+  background-color: transparent;
+  color: #f24a00;
+  border: #f24a00 solid 2px;
+  border-radius: calc(var(--index));
+  padding: calc(var(--index) * 0.2);
+  font-size: calc(var(--index) * 1);
+  box-shadow: 1px 1px 4px rgb(0, 0, 0, 0.3);
+}
+
+.modalAddToCartBtn:hover {
+  background-color: rgba(245, 230, 213, 0.8);
+}
+.modalAddToCartBtn:hover {
+  box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.4);
+}
+.modalAddToCartBtn:active {
+  box-shadow: 1px 1px 4px rgb(0, 0, 0, 0.3);
+}
+
+/* 
+круг чекбокса
+.css-jsexje-MuiSwitch-thumb{
+  color: rgb(130, 54, 4);
+  height: calc(var(--index) * 0.9) !important;
+  width:  calc(var(--index) * 0.9) !important;
+}
+полоса чекбокса
+.css-julti5-MuiSwitch-root{
+  height: calc(var(--index) * 1.5) !important;
+  width:  calc(var(--index) * 2.5) !important;
+} 
+*/
+
+/* подпись чекбокса */
+.css-1f2kvjf-MuiFormControlLabel-root .MuiFormControlLabel-label {
+  font-size: calc(var(--index) * 0.7);
+}
+/* кнопки MUI*/
+.MuiToggleButtonGroup-grouped:not(:first-of-type) {
+  font-size: calc(var(--index) * 0.6) !important;
+  padding: calc(var(--index) * 0.2) !important;
+  height: calc(var(--index) * 1) !important;
+}
+.MuiToggleButtonGroup-grouped:not(:last-of-type) {
+  font-size: calc(var(--index) * 0.6) !important;
+  padding: calc(var(--index) * 0.2) !important;
+  height: calc(var(--index) * 1) !important;
+}

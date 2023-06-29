@@ -1,0 +1,188 @@
+@media only screen and (max-width: 1200px) {
+  .headerLinkContainer{
+    width: 40%;
+  }
+  .headerLinkContainer2{
+    width: 0;
+  }
+}
+
+.headerContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(var(--index) * 3);
+  background-color: rgba(255, 255, 255, 0.5);
+  opacity: 0.95;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: calc(var(--index) * 50);
+  width: 78%;
+  margin: 0 auto;
+}
+
+.headerLinkContainer{
+  width: 22%;
+  display: flex;
+  justify-content: space-between;
+  font-size: calc(var(--index) * 0.8);
+  font-weight: 500;
+  font-family: "Kaushan Script", cursive;
+}
+.headerBlankContainer1{
+  width: 20%;
+}
+.headerBlankContainer2{
+  margin: 0 -25px;
+  width: 0.1%;
+}
+
+
+.logo {
+  margin-top: calc(var(--index) * 0.2);
+  width: calc(var(--index) * 12);
+}
+
+.cart {
+  height: 20px;
+}
+
+.MuiDrawer-paper {
+  width: 25%;
+  opacity: 0.9;
+}
+
+.cartHeaderTextContainer{
+  margin: 10px auto;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.cartOrderButton{
+  width: 95%;
+  margin: 10px 10px -15px 10px;
+  cursor: pointer;
+  background-color: transparent;
+  color: #f24a00;
+  border: #f24a00 solid 1px;
+  border-radius: calc(var(--index));
+  padding: calc(var(--index) * 0.2) 0;
+  font-size: calc(var(--index) * 0.6);
+  box-shadow: 1px 1px 4px rgb(0, 0, 0, 0.3);
+
+}
+
+.cartOrderButton:hover{
+  box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.4);
+}
+
+.cartOrderButton:active{
+  box-shadow: 1px 1px 4px rgb(0, 0, 0, 0.3);
+}
+
+.cartHeaderText{
+  margin: 5px;
+  font-family: 'Merienda', cursive;
+  font-size: calc(var(--index) * 1);
+}
+
+.cartHeaderPriceText{
+  font-family: 'Merienda', cursive;
+  font-size: calc(var(--index) * 1.5);
+  color: red;
+}
+
+.cartPizzaNameContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cartPizzaName{
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.cartPizzaNameText {
+  margin: 10px 0;
+  max-width: 65%;
+  font-size: calc(var(--index) * 1);
+  font-weight: 500;
+  font-family: "Kaushan Script", cursive;
+  text-align: center;
+  align-items: center;
+}
+
+.cartPizzaIndexText {
+  margin: 10px 0;
+  padding: 0 calc(var(--index) * 0.7);
+  font-size: calc(var(--index) * 1);
+  font-weight: 500;
+  font-family: "Kaushan Script", cursive;
+}
+
+.cartPizzaQuantityText {
+  margin: 10px;
+  font-size: calc(var(--index) * 1);
+  font-weight: 500;
+  font-family: "Kaushan Script", cursive;
+  color: red;
+}
+
+.cartPizzaDescription {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 calc(var(--index) * 1.5) 10px calc(var(--index) * 1.5);
+}
+
+.cartPizzaDescriptionText {
+  margin: -5px 0;
+  font-size: calc(var(--index) * 0.8);
+  font-family: "Kalam", cursive;
+}
+
+.deleteCartItemButton{
+  background-color: transparent;
+  border: none;
+  font-size: calc(var(--index) * 1.1);
+  color: rgb(147, 147, 147);
+  cursor: pointer;
+}
+
+.deleteCartItemButton:hover{
+  background-color: transparent;
+  border: none;
+  font-size: calc(var(--index) * 1.2);
+  color: red;
+  cursor: pointer;
+}
+
+.emptyCart{
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: calc(var(--index) * 3);
+  margin-bottom: calc(var(--index) * 0.9);
+  font-size: calc(var(--index) * 2);
+  font-family: "Dancing Script", cursive;
+  color: #bcc5ce;
+}
+
+.emptyCartImg{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.css-br1b1j-MuiBadge-root .MuiBadge-badge{
+  width: calc(var(--index) * 1);
+  height: calc(var(--index) * 1);
+  border-radius: 50%;
+}

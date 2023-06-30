@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pizza/static/css/main.f2528e2a.css",
-    "main.js": "/pizza/static/js/main.1f5deb76.js",
+    "main.css": "/pizza/static/css/main.3d728e91.css",
+    "main.js": "/pizza/static/js/main.6a369ed1.js",
     "static/media/loading.gif": "/pizza/static/media/loading.43ca37383742d3a28dfa.gif",
     "static/media/about3.jpg": "/pizza/static/media/about3.bc970a2a08e1e861730f.jpg",
     "static/media/Contacs1.jpg": "/pizza/static/media/Contacs1.608ae3ad60365a503610.jpg",
@@ -74,11 +74,11 @@
     "static/media/roboto-greek-ext-400-normal.woff": "/pizza/static/media/roboto-greek-ext-400-normal.f708607d2a7290fb8bfa.woff",
     "static/media/roboto-greek-ext-700-normal.woff": "/pizza/static/media/roboto-greek-ext-700-normal.249853776d22a271b2b5.woff",
     "index.html": "/pizza/index.html",
-    "main.f2528e2a.css.map": "/pizza/static/css/main.f2528e2a.css.map",
-    "main.1f5deb76.js.map": "/pizza/static/js/main.1f5deb76.js.map"
+    "main.3d728e91.css.map": "/pizza/static/css/main.3d728e91.css.map",
+    "main.6a369ed1.js.map": "/pizza/static/js/main.6a369ed1.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2528e2a.css",
-    "static/js/main.1f5deb76.js"
+    "static/css/main.3d728e91.css",
+    "static/js/main.6a369ed1.js"
   ]
 }

@@ -1,46 +1,17 @@
-# Getting Started with Create React App
+Open on [GitHub Pages](https://vadimbj.github.io/pizza/) 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a pizza ordering website built using React with TypeScript. It incorporates various technologies and libraries such as Redux Toolkit, Firebase, Material UI, Local Storage, and Fetch API.
 
-## Available Scripts
+The main functionality of the website allows users to browse and select pizzas from a wide range of options. Users can customize their chosen pizza by modifying its parameters. The website also enables users to place an order and proceed with the checkout process.
 
-In the project directory, you can run:
+Key Technologies and Libraries Used:
 
-### `npm start`
+* React: The project utilizes the React framework for building a dynamic and responsive user interface.
+* TypeScript: TypeScript is employed to introduce static typing and enhance the development experience.
+* Redux Toolkit: Redux Toolkit is used for state management, enabling centralized and predictable handling of application data.
+* Firebase: Firebase is leveraged for backend functionalities such as real-time data storage.
+* Material UI: The Material UI library is implemented for creating a visually appealing and consistent user interface.
+* Local Storage: Local Storage is employed to store certain user preferences and user orders on the client-side, providing a seamless user experience.
+* Fetch API: The Fetch API is utilized to communicate with the server and retrieve pizza data for rendering on the website.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project aims to provide a user-friendly and efficient online platform for pizza ordering, leveraging the power of React, Redux Toolkit, Firebase, Material UI, Local Storage, and Fetch API to deliver a seamless and enjoyable user experience.

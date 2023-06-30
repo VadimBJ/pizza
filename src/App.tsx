@@ -6,6 +6,7 @@ import { Bounce, ToastContainer } from "react-toastify";
 import AboutUs from "./features/aboutus/AboutUs";
 import Contacts from "./features/contacts/Contacts";
 import Cart from "./features/cart/Cart";
+import Reviews from "./features/reviews/Reviews";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/cart" element={<Cart />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/contacts" element={<Contacts />} />
+        <Route path="/reviews" element={<Reviews />} />
         <Route path="*" element={<Pizzas />} />
       </Routes>
       <ToastContainer

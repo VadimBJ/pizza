@@ -1,0 +1,100 @@
+.reviewsContainer {
+  max-width: calc(var(--index) * 40);
+  width: 80%;
+  margin: calc(var(--index) * 2.5) auto 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.reviewsHeaderText {
+  margin: 5px;
+  font-family: "Merienda", cursive;
+  font-size: calc(var(--index) * 1);
+  text-align: center;
+  line-height: 2;
+}
+
+.reviewsHeaderT {
+  font-size: calc(var(--index) * 1);
+  font-family: "Kalam", cursive;
+  margin-bottom: calc(var(--index) * -0.4);
+  /* transform: rotate(-5deg); */
+}
+.Text2 {
+  margin: 0;
+  margin-left: calc(var(--index) * 15);
+}
+.Text3 {
+  margin: 0;
+  margin-left: calc(var(--index) * 18);
+}
+
+.reviewForm {
+  margin: 0 0 20px;
+}
+
+#reviewName {
+  width: calc(var(--index) * 10);
+}
+
+.inputReview {
+  margin: 20px;
+  margin-bottom: 0;
+  width: calc(var(--index) * 20);
+  height: calc(var(--index) * 5);
+  text-align: start;
+}
+
+.reviewButton {
+  width: 25%;
+  margin: 5px calc(var(--index) * 11);
+  cursor: pointer;
+  background-color: transparent;
+  color: #f24a00;
+  border: #f24a00 solid 1px;
+  border-radius: calc(var(--index));
+  padding: calc(var(--index) * 0.2) 0;
+  font-size: calc(var(--index) * 0.6);
+  box-shadow: 1px 1px 4px rgb(0, 0, 0, 0.3);
+}
+
+.reviewButton:hover {
+  background-color: #fefef7;
+  box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.4);
+}
+
+.reviewButton:active {
+  box-shadow: 1px 1px 4px rgb(0, 0, 0, 0.3);
+}
+
+.reviewLogoNameDate {
+  display: flex;
+}
+.reviewNameDate {
+  margin: -10px 10px;
+}
+
+.reviewName {
+  font-size: calc(var(--index) * 0.7);
+  font-weight: 500;
+  font-family: "Kaushan Script", cursive;
+}
+
+.reviewContainer {
+  width: 90%;
+  margin: 5px calc(var(--index) * 1) auto;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&display=swap");
+.reviewBody {
+  width: 100%;
+  margin: 10px auto 30px;
+  padding: calc(var(--index) * 1);
+  background-color: #fffff3;
+
+  border-radius: 30px;
+  font-size: calc(var(--index) * 1);
+  font-family: "Marck Script", cursive;
+  text-indent: calc(var(--index) * 1.3);
+  text-align: justify;
+}

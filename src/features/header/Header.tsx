@@ -133,7 +133,7 @@ export default function Header(): JSX.Element {
     <>
       <div className="headerContainer">
         <div className="headerContent">
-          <a href="/">
+          <a href="/pizza">
             <img className="logo" src={logo} alt="logo" />
           </a>
 

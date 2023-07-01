@@ -98,7 +98,7 @@ export default function Reviews(): JSX.Element {
               <Avatar
                 alt="Remy Sharp"
                 src={el.item.link}
-                sx={{ width: 56, height: 56 }}
+                sx={{ width: 70, height: 70 }}
               />
               <div className="reviewNameDate">
                 <p className="reviewName">{el.item.name}</p>
